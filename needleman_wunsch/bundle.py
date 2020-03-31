@@ -21,3 +21,7 @@ def main(file_name):
     f.close()
 
 main(sys.argv[1])
+"""Si l'invité de commande n'affiche pas le texte en rouge mais quelque chose
+d'incompréhensible, il faut modifier red_text en une fonction qui return
+son argument sans le chager. Cela dépend des ordinateurs, et mon professeur
+m'a assuré que ce n'était pas un problème."""

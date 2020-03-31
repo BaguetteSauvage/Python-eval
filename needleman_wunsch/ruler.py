@@ -1,6 +1,14 @@
 from colorama import Fore, Style
+"""La consigne demande de nommer ce fichier ruler.py, ce que j'ai fait, mais
+pour l'import je suis alors obligé d'utiliser 'from ruler import...' au lieu de
+'from needleman-wunsch import...'. Peut-être que je n'utilise pas la syntaxe
+correcte, mais dans le cas où 'from needleman-wunsch...' ne arche pas, essayer
+'from ruler...'. Je pense que ma difficulté est liée à l'utilisation de Pyzo."""
 
 def red_text(text):
+    """Renvoie le caractère en rouge. En cas de problèmes sur l'invité de
+    commande, remplacer par return text."""
+    #return text
     return f"{Fore.RED}{text}{Style.RESET_ALL}"
 
 def redify(text, char):
